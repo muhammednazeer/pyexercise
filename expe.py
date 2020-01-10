@@ -1,0 +1,173 @@
+intro = '''WELCOME TO 
+PROPERTIES OF TRANSITION METALS CHEACKER PROGRAM:\n
+Developed by:\n
+MUHAMMED HUSSAINI NAZEER\n
+Registration Number: CST/16/COM/00619\n
+FACULTY OF COMPUTER SCIENCE & INFORMATION TECHNOLOGY\n'''
+alignIntro = intro.center(55)
+print (alignIntro)
+
+
+trans_Metal = {"Iron": '''NAME:   Iron
+SYMBOL:   Fe
+ATOMIC NUMBER:   26
+ATOMIC MASS:   55.845 amu
+MELTING POINT:   1535.0 C
+BOILING POINT:   2750.0 C
+DENSITY:   7.86g/cm3
+NUMBER OF NEUTRONS:   30
+COLOUR:   Silvery
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Iron ores''',
+"Zinc": '''NAME:   Zinc
+SYMBOL:   Zn
+ATOMIC NUMBER:   30
+ATOMIC MASS:   65.39 amu
+MELTING POINT:   419.58C
+BOILING POINT:   907.0 C
+DENSITY:   7.133g/cm3
+NUMBER OF NEUTRONS:   30
+COLOUR:   Bluish
+CRYSTAL STRUCTURE:   Hexegonal
+OBTAIN FROM:   Calamine''',
+"Copper": '''NAME:   Copper
+SYMBOL::   Cu
+ATOMIC NUMBER::   29
+ATOMIC MASS:   63.546 amu
+MELTING POINT:   1083.08C
+BOILING POINT:   2567.0 C
+DENSITY:   8.96g/cm
+NUMBER OF NEUTRONS:   35
+COLOUR:   Red/Orange"
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Coveline"''',
+"Platinum": '''NAME:   Platinum
+SYMBOL::   Pt
+ATOMIC NUMBER:   78
+ATOMIC MASS:   195.078amu
+MELTING POINT:   1772.0C
+BOILING POINT:   3827.0C
+DENSITY:  21.45g/cm3
+NUMBER OF NEUTRONS:   117
+COLOUR:   Silverish
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Platinum ores''',
+"Nickel": '''NAME:   Nickel
+SYMBOL::   Ni
+ATOMIC NUMBER:   28
+ATOMIC MASS:   65.39 amu
+MELTING POINT:   1453.0C
+BOILING POINT:   2732.0 C
+DENSITY:   8.902g/cm3
+NUMBER OF NEUTRONS:   31
+COLOUR:   White
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Pentlandite''',
+"Cobalt": '''NAME:   Cobalt
+SYMBOL::   Co
+ATOMIC NUMBER::   27
+ATOMIC MASS:   58.9332 amu
+MELTING POINT:   1495.0 C
+BOILING POINT:   2870.0 C
+DENSITY:   8.9g/cm3
+NUMBER OF NEUTRONS:   32
+COLOUR:   Silver"
+CRYSTAL STRUCTURE:   Hexagonal
+OBTAIN FROM:   Sulphur''',
+"Gold": '''
+NAME:   Gold
+SYMBOL::   Au
+ATOMIC NUMBER:   79
+ATOMIC MASS:   196.9665 amu
+MELTING POINT:   1064.43C
+BOILING POINT:   2807.0 C
+DENSITY:   19.32g/cm3
+NUMBER OF NEUTRONS:   118
+COLOUR:  Gold
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Crust of the earth''',
+"Mercury": '''NAME:   Mercury
+SYMBOL:   Hg
+ATOMIC NUMBER:   80
+ATOMIC MASS:   200.59 amu
+MELTING POINT:   -38.87 C
+BOILING POINT:   356.58C
+DENSITY:   13.456g/cm3
+NUMBER OF NEUTRONS:   121
+COLOUR:  Silver
+CRYSTAL STRUCTURE:   Rhombohedral
+OBTAIN FROM:   Cinnabar ore''',
+"Silver": '''NAME:   Siver
+SYMBOL:   Ag
+ATOMIC NUMBER::   47
+ATOMIC MASS:   107.86amu
+MELTING POINT:   961.93C
+BOILING POINT:   2212.0C
+DENSITY:  10.5g/cm3
+NUMBER OF NEUTRONS:   61
+COLOUR:   Silver
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   argentite ores''',
+"Manganese": '''NAME:   Manganese
+SYMBOL::   Mn
+ATOMIC NUMBER::   25
+ATOMIC MASS:   54.938amu
+MELTING POINT:   1245.0C
+BOILING POINT:   1962.0 C
+DENSITY:   7.43g/cm3
+NUMBER OF NEUTRONS:   30
+COLOUR:   grayish
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   pyrolusite''',
+"Chromium": '''NAME:   Chromium
+SYMBOL::   Cr
+ATOMIC NUMBER::   24
+ATOMIC MASS:   51.99amu
+MELTING POINT:   1857.0 C
+BOILING POINT:   2672.0 C
+DENSITY:   7.19g/cm3
+NUMBER OF NEUTRONS:   28
+COLOUR:   Gray
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Chromite''',
+"Tungsten": '''NAME:   Tungsten
+SYMBOL:   W
+ATOMIC NUMBER:   74
+ATOMIC MASS:   183.84amu
+MELTING POINT:   3410.0
+BOILING POINT:   5660C
+DENSITY:   19.3g/cm3
+NUMBER OF NEUTRONS:   110
+COLOUR:  Silver
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Sheelite''',
+"Tantalum": '''NAME:   Tantalum
+SYMBOL:   Ta
+ATOMIC NUMBER:   73
+ATOMIC MASS:   180.94amu
+MELTING POINT:  2996C
+BOILING POINT:   5425.0C
+DENSITY:   16.654g/cm3
+NUMBER OF NEUTRONS:   108
+COLOUR:  gray
+CRYSTAL STRUCTURE:   Cubic
+OBTAIN FROM:   Tantalit''',
+"Zirconium": '''NAME:   Zirconium
+SYMBOL::   Zr
+ATOMIC NUMBER:   40
+ATOMIC MASS:   91.224amu
+MELTING POINT:  1852.0C
+BOILING POINT:   4377.0C
+DENSITY:   6.49g/cm3
+NUMBER OF NEUTRONS:   51
+COLOUR:  grayish
+CRYSTAL STRUCTURE:   Hexagonal
+OBTAIN FROM:   Zircon'''}
+
+test = input("Enter a Transition metal name to check the properties: ")
+if test in trans_Metal.keys():
+    print (trans_Metal[test])
+elif test not in trans_Metal.keys():
+    print (test, " is not a valid transition metal's name")
+
+
