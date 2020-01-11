@@ -1,8 +1,5 @@
 ''' This program calculate the heating effect of electricity
-                Created by Aliyu Idris M.
-   Faculty of Computer Science & Information Techenology
-                   Bayero University, Kano
-
+         
 The program accept 3 parameta via Current in amp,
   Resistance in ohms, Time in Minutes.'''
 
