@@ -1,7 +1,4 @@
-''' Program that display the properties of all the transition metals
-    developed by MUHAMMED HUSSANI NAZEER, Faculty of Computer Science and
-    Information Technology.
-    Bayero University, Kano.'''
+''' Program that display the properties of all the transition metals.'''
 import datetime
 today = datetime.date.today()
 print(today)
@@ -9,11 +6,7 @@ print(today)
 
 print ('''                                     WELCOME TO: 
                   PROPERTIES OF TRANSITION METALS CHEACKER PROGRAM:\n
-                                   Developed by:\n
-                            MUHAMMED HUSSAINI NAZEER
-                      Registration Number: CST/16/COM/00619\n
-              FACULTY OF COMPUTER SCIENCE & INFORMATION TECHNOLOGY
-                           Bayero University, Kano\n
+                                   
         **********************************************************************''')
 #Defination of Transition metals
 
