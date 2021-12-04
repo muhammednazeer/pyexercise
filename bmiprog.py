@@ -15,4 +15,4 @@ while test != "quit":
         elif bmi >= 25:
             print ("Overwight")
         else:
-            print ("Enter a valid parameta")
+            print ("Enter a valid value")
